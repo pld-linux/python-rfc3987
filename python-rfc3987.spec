@@ -6,14 +6,14 @@
 Summary:	Parsing and validation of URIs (RFC 3986) and IRIs (RFC 3987)
 Summary(pl.UTF-8):	Analiza i sprawdzanie poprawności URI (RFC 3986) oraz IRI (RFC 3987)
 Name:		python-rfc3987
-Version:	1.3.7
-Release:	3
+Version:	1.3.8
+Release:	1
 License:	GPL v3+
 Group:		Libraries/Python
-#Source0Download: https://pypi.python.org/simple/rfc3987/
+#Source0Download: https://pypi.org/simple/rfc3987/
 Source0:	https://files.pythonhosted.org/packages/source/r/rfc3987/rfc3987-%{version}.tar.gz
-# Source0-md5:	aa108c7590902fe609c036864ecb7f84
-URL:		https://pypi.python.org/pypi/rfc3987/
+# Source0-md5:	b6c4028acdc788a9ba697e1c1d6b896c
+URL:		https://pypi.org/project/rfc3987/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.6
 BuildRequires:	python-setuptools
